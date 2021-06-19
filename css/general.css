@@ -1,13 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f6efe8;
 }
 
 header {
-    background: #222222;
+    background: #1264a3;
     padding: 15px 20px 15px 50px;
     color: white;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
+}
+
+footer {
+    background: #1264a3;
+    padding: 15px 40px 15px 50px;
+    height: 100px;
+    color: white;
 }
 
 #navegacion-principal {
@@ -16,19 +24,21 @@ header {
 
 .flotar-izquierda {
     float: left;
-    border: 2px solid red;
-    width: 45%;
+    border: 2px solid #611f69;
+    width: 30%;
     height: 300px;
     margin: 20px;
+    margin-left: 10%;
     padding: 20px;
 }
 
 .flotar-derecha {
     float: right;
-    border: 2px solid red;
-    width: 45%;
+    border: 2px solid #611f69;
+    width: 30%;
     height: 300px;
     margin: 20px;
+    margin-right: 10%;
     padding: 20px;
 }
 
@@ -41,18 +51,19 @@ header {
     width: 96%;
     margin: 25px;
     padding: 10px;
-    background-color: black;
+    background-color: #611f69;
     height: 1px;
     border-radius: 25px;
 }
 
 #navegacion-secundaria {
     display: flow-root;
+    margin-left: 10%;
 }
 
-.flotar-iz {
+.flotar-sec {
     float: left;
-    border: 2px solid red;
+    border: 2px solid #611f69;
     width: 25%;
     height: 100px;
     margin: 20px;
