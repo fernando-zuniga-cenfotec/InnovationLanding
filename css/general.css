@@ -5,6 +5,9 @@ body {
 header {
     background: #222222;
     padding: 15px 20px 15px 50px;
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 #navegacion-principal {
@@ -23,10 +26,16 @@ header {
 
 .flotar-izquierda {
     float: left;
+    border-color: solid red 2px;
+    width: 100px;
+    height: 100px;
 }
 
 .flotar-derecha {
     float: right;
+    border-color: red;
+    width: 100px;
+    height: 100px;
 }
 
 .fondo-negro {
@@ -67,58 +76,4 @@ header {
 
 #banner_inicio button:hover {
     background: #f39c12;
-}
-
-#beneficios {
-    display: flow-root;
-}
-
-#beneficios .img-beneficios {
-    background-image: url('../imgs/beneficios.jpg');
-    background-size: cover;
-    height: 600px;
-    width: 40%;
-}
-
-#beneficios .lista-beneficios {
-    box-sizing: border-box;
-    padding: 50px;
-    min-height: 600px;
-    position: relative;
-    width: 60%;
-}
-
-#beneficios .lista-beneficios h2 {
-    color: #EFAC43;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-#beneficios .lista-beneficios ul li {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-#beneficios .lista-beneficios .cuadro-decoracion {
-    background: #EFAC43;
-    height: 40px;
-    position: absolute;
-    width: 40px;
-}
-
-#beneficios .lista-beneficios .primer-cuadro {
-    bottom: 80px;
-    right: 0;
-}
-
-#beneficios .lista-beneficios .segundo-cuadro {
-    bottom: 40px;
-    right: 40px;
-}
-
-#beneficios .lista-beneficios .tercer-cuadro {
-    bottom: 0;
-    right: 0;
 }
