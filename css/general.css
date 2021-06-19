@@ -12,6 +12,7 @@ header {
 }
 
 footer {
+    display: flow-root;
     background: #1264a3;
     padding: 15px 40px 15px 50px;
     height: 100px;
@@ -68,4 +69,52 @@ footer {
     height: 100px;
     margin: 20px;
     padding: 20px;
+}
+
+.image-coding {
+    background-image: url(/img/coding-man.jpg);
+    background-size: cover;
+}
+
+.image-team {
+    background-image: url(/img/coding-team.jpg);
+    background-size: cover;
+}
+
+.footer-social-fb {
+    background-image: url(/img/facebook.png);
+    background-size: cover;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.footer-social-insta {
+    background-image: url(/img/instagram.png);
+    background-size: cover;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.footer-social-twiter {
+    background-image: url(/img/twitter.png);
+    background-size: cover;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 20px;
 }
