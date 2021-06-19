@@ -14,66 +14,47 @@ header {
     display: flow-root;
 }
 
-#navegacion-principal a {
-    color: #999999;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-#navegacion-principal a:hover {
-    color: #EFAC43;
-}
-
 .flotar-izquierda {
     float: left;
-    border-color: solid red 2px;
-    width: 100px;
-    height: 100px;
+    border: 2px solid red;
+    width: 45%;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .flotar-derecha {
     float: right;
-    border-color: red;
-    width: 100px;
-    height: 100px;
+    border: 2px solid red;
+    width: 45%;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .fondo-negro {
     background: #000;
 }
 
-.img-banner {
-    background-image: url('../imgs/gym-banner.jpg');
-    background-size: cover;
-    background-position-y: center;
-    height: 500px;
-    margin-bottom: 25px;
-}
-
-#banner_inicio {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-#banner_inicio h1 {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-#banner_inicio p {
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-#banner_inicio button {
-    background: #EFAC43;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 18px;
+.barra {
+    float: left;
+    width: 96%;
+    margin: 25px;
     padding: 10px;
+    background-color: black;
+    height: 1px;
+    border-radius: 25px;
 }
 
-#banner_inicio button:hover {
-    background: #f39c12;
+#navegacion-secundaria {
+    display: flow-root;
+}
+
+.flotar-iz {
+    float: left;
+    border: 2px solid red;
+    width: 25%;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
 }
