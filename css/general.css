@@ -1,46 +1,95 @@
+:root {
+    --main--bg-color: #f7f9fb;
+    --second-bg-color: #31708e;
+    --main-line-color: #5085a5;
+    --second-line-color: #8fc1e3;
+
+
+  }
+.Logo{
+    display: inline;
+    padding: 2%;
+    float: left;
+    height: 25px;
+    background-image: url(../img/Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    filter: brightness(120%) ;
+}
+.Logo p{
+    color: var(--main-line-color);
+    font-size: small;
+    padding: 19% 12%;
+    width: 180px;
+    color: var(--main--bg-color);
+}
+nav{
+    display: inline;
+    padding-left: 4%;
+    padding-top: 2% ;
+    float: left;
+    height: 25px;   
+    width: 600px;
+    margin-top: 0.5%;
+}
+.nav-header a{
+    padding: 4%;
+    color: var(--main-line-color);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+}
+
+.nav-header a:hover{
+    color: var(--second-line-color);
+  
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f6efe8;
+    background-color: var(--main--bg-color);
 }
 
 header {
-    background: #1264a3;
+    background: var(--main--bg-color);
     padding: 15px 20px 15px 50px;
-    color: white;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    color: var(--main-line-color);
+    display: flow-root;
+    box-shadow: 2px 2px 5px #999;
+    opacity: 1;
 }
 
 footer {
     display: flow-root;
-    background: #1264a3;
+    background: var(--second-bg-color);
     padding: 15px 40px 15px 50px;
     height: 100px;
-    color: white;
+    color: var(--main-line-color);
 }
 
 #navegacion-principal {
     display: flow-root;
+  
+
 }
 
 .flotar-izquierda {
     float: left;
-    border: 2px solid #611f69;
-    width: 30%;
-    height: 300px;
-    margin: 20px;
-    margin-left: 10%;
-    padding: 20px;
+    width: 40%;
+    height: 350px;
+    margin-left: 5%;
+    padding: 10px;
+    align-items: left;
 }
 
 .flotar-derecha {
     float: right;
-    border: 2px solid #611f69;
-    width: 30%;
-    height: 300px;
-    margin: 20px;
-    margin-right: 10%;
-    padding: 20px;
+
+    width: 50%;
+    height: 400px;
+    
+ 
 }
 
 .fondo-negro {
@@ -49,12 +98,13 @@ footer {
 
 .barra {
     float: left;
-    width: 96%;
-    margin: 25px;
-    padding: 10px;
-    background-color: #611f69;
+    width: 100%;
+    opacity: 0;
+    padding: 3px;
+    background-color: var(--second-line-color);
     height: 1px;
     border-radius: 25px;
+    margin-bottom: 15px;
 }
 
 #navegacion-secundaria {
@@ -64,7 +114,7 @@ footer {
 
 .flotar-sec {
     float: left;
-    border: 2px solid #611f69;
+    border: 2px solid var(--second-line-color);
     width: 25%;
     height: 100px;
     margin: 20px;
@@ -72,17 +122,19 @@ footer {
 }
 
 .image-coding {
-    background-image: url(/img/casa1.jpg);
+    background-image: url(../img/asset-key.jpg);
     background-size: cover;
+    opacity: 0.7;
+    
 }
 
 .image-team {
-    background-image: url(/img/coding-team.jpg);
-    background-size: cover;
+  
+   
 }
 
 .footer-social-fb {
-    background-image: url(/img/facebook.png);
+    background-image: url(../img/facebook.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -92,7 +144,7 @@ footer {
 }
 
 .footer-social-insta {
-    background-image: url(/img/instagram.png);
+    background-image: url(../img/instagram.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -102,7 +154,7 @@ footer {
 }
 
 .footer-social-twiter {
-    background-image: url(/img/twitter.png);
+    background-image: url(../img/twitter.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -117,4 +169,16 @@ footer {
     margin-right: auto;
     width: 300px;
     height: 20px;
+}
+
+footer{
+    height: 70px;
+}
+
+.flotar-izquierda h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--second-bg-color);
+    padding: 3%;
+   
 }
