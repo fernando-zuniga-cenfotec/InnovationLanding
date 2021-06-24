@@ -15,7 +15,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
-    filter: brightness(120%) ;
+    filter: brightness(80%) ;
 }
 .Logo p{
     color: var(--main-line-color);
