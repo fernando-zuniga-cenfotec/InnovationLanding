@@ -116,7 +116,7 @@ footer {
     float: left;
     border: 2px solid var(--second-line-color);
     width: 25%;
-    height: 100px;
+    height: 20vh;
     margin: 20px;
     padding: 20px;
 }
