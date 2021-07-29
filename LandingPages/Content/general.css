@@ -9,25 +9,19 @@
     display: inline;
     padding: 2%;
     float: left;
-    height: 25px;
-    background-image: url(../img/Logo.png);
+    height: 3vh;
+    background-image: url(../Content/imgs/Logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 150px;
-    filter: brightness(80%);
+    width: 4vw;
+
 }
 
-.Logo p {
-    color: var(--main-line-color);
-    font-size: small;
-    padding: 19% 12%;
-    width: 180px;
-    color: var(--main--bg-color);
-}
+
 
 nav {
     display: inline;
-    padding-left: 4%;
+    padding-left: 2%;
     padding-top: 2%;
     float: left;
     height: 25px;
@@ -58,7 +52,6 @@ header {
     color: var(--main-line-color);
     display: flow-root;
     box-shadow: 2px 2px 5px #999;
-    opacity: 1;
     position: sticky;
     top: 0;
 }
@@ -71,24 +64,27 @@ footer {
     color: var(--main-line-color);
 }
 
-.button1 {
+.button1{
     display: inline-block;
     padding: 0.35em 1.2em;
-    border: 0.1em solid #FFFFFF;
+    border-width: 50px;
+    border: var(--main-line-color);
     margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
+    border-radius: 3vh;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-size: medium;
+    font-weight: 600;
     color: var(--main-line-color);
     text-align: center;
     transition: all 0.2s;
+    align-self: right;
+    background-color: var(--main--bg-color);
 }
 
 .button1:hover {
     color: white;
-    background-color: var(--second-bg-color);
+    background-color: var(--second-line-color);
 }
 
 @media all and (max-width:30em) {
@@ -111,12 +107,38 @@ footer {
     align-items: left;
 }
 
+.flotar-izquierda p{
+
+padding: 0.5vh;
+color: var(--second-bg-color);
+}
+
+.flotar-izquierda a{
+
+padding: 4vh;
+color: var(--second-bg-color);
+display: inline-block;
+font-size: x-large;
+}
+
+.flotar-izquierda a:hover{
+
+    padding: 4vh;
+    color: var(--second-line-color);
+    display: inline-block;
+    font-size: x-large;
+    }
+
 .flotar-derecha {
     float: right;
     width: 50%;
     height: 400px;
 }
 
+.botones-derecha{
+    float: right;
+    margin-top: 4vh;
+}
 .fondo-negro {
     background: #000;
 }
@@ -135,6 +157,7 @@ footer {
 #navegacion-secundaria {
     display: flow-root;
     margin-left: 10%;
+    margin-top: 2vh;
 }
 
 .flotar-sec {
@@ -147,7 +170,7 @@ footer {
 }
 
 .image-coding {
-    background-image: url(../img/asset-key.jpg);
+    background-image: url(../Content/imgs/asset-key.jpg);
     background-size: cover;
     opacity: 0.7;
 }
@@ -155,7 +178,7 @@ footer {
 .image-team {}
 
 .footer-social-fb {
-    background-image: url(../img/facebook.png);
+    background-image: url(../Content/imgs/facebook.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -165,7 +188,7 @@ footer {
 }
 
 .footer-social-insta {
-    background-image: url(../img/instagram.png);
+    background-image: url(../Content/imgs/instagram.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -175,7 +198,7 @@ footer {
 }
 
 .footer-social-twiter {
-    background-image: url(../img/twitter.png);
+    background-image: url(../Content/imgs/twitter.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -201,4 +224,12 @@ footer {
     font-weight: 600;
     color: var(--second-bg-color);
     padding: 3%;
+}
+
+.flotar-izquierda p{
+    font-size: 20px;
+}
+
+a{
+   color: var(--main--bg-color); 
 }

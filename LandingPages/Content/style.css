@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-color: black;
+    background-image: url(./imgs/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.total-section{
+    overflow: hidden;
+    text-align: center;
+    background: #3C3846;
+    padding: 1.40vh;
+    background-image: url(./imgs/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+  
+}
+.total-section h1{
+   text-transform: uppercase;
+   margin-bottom: 9.17vh;
+   font-size: 2.2vh;
+   color: white;
+   display: inline-block;
+   padding: 4.58vh;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 24.4vh;
+    height: 0.4vh;
+    background: yellow;
+    margin-bottom: 6.11vh;
+}
+.ps{
+    margin-bottom: 6.11px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 3.05vh;
+    width: 18.34vh;
+    height: 18.34vh;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.rotulos:hover {
+    
+    color: yellow;
+}
+
+.ps a img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.ps a:hover > img{
+    filter:none;
+}
+
+.section{
+    width: 91vh;
+    margin: auto;
+    font-size: 3.058vh;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+
+.name{
+    display: block;
+    margin-bottom: 4.58vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.36vh;
+}
+.logo{
+    height: 11.29vh;
+}
+
+p{
+    text-align: center;
+    
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 3vh;
+    font-style: normal;
+    font-size: 2vh;
+    color:#8a8a8a ;
+    position:fixed;
+    bottom: 1px;
+    
+}
+footer div{
+    padding: 1vh;
+    align-items: initial;
+}
+
+.mision{
+    height: 50%;
+    width: 70vh;
+    background-color: rgba(255, 255, 255, 0.123);
+    position:absolute;
+    left: 10vw;
+    font-size: 3vh;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+
+}
+
+.mision p{
+    padding: 1.52vh;
+}
+
+.mision h1{
+    padding:3.05vh ;
+    font-size: 6vh;
+    text-transform: none;
+}
+
+.mision-image{
+    height: 50%;
+    width: 70vh;
+    background-image: url(./imgs/mision.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    right: 10vw;
+    border-radius: 30% 30% 50% 50%;
+    font-size: 2vh;
+    color: white;
+}
+
+.mision-image:hover{
+    filter: sepia();
+    animation: shake 0.5s;
+    height: 60vh;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.bubbles {
+    margin: 15px;
+	position: relative;
+	max-width: 30em;
+	background-color: rgba(255, 255, 255, 0.123);
+	padding: 1.125em 1.5em;
+	font-size: 1.25em;
+	border-radius: 1rem;
+    box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+   
+    color: white;
+
+}
+
+.bubbles::before {
+
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 100%;
+	left: 1.5em; 
+	border: .75rem solid transparent;
+	border-top: none;
+    color: white;
+
+
+	border-bottom-color: rgba(255, 255, 255, 0.123);
+	filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+.valores{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
