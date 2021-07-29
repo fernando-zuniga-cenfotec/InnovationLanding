@@ -1,0 +1,235 @@
+:root {
+    --main--bg-color: #f7f9fb;
+    --second-bg-color: #31708e;
+    --main-line-color: #5085a5;
+    --second-line-color: #8fc1e3;
+}
+
+.Logo {
+    display: inline;
+    padding: 2%;
+    float: left;
+    height: 3vh;
+    background-image: url(../Content/imgs/Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4vw;
+
+}
+
+
+
+nav {
+    display: inline;
+    padding-left: 2%;
+    padding-top: 2%;
+    float: left;
+    height: 25px;
+    width: 600px;
+    margin-top: 0.5%;
+}
+
+.nav-header a {
+    padding: 4%;
+    color: var(--main-line-color);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+}
+
+.nav-header a:hover {
+    color: var(--second-line-color);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main--bg-color);
+}
+
+header {
+    background: var(--main--bg-color);
+    padding: 15px 20px 15px 50px;
+    color: var(--main-line-color);
+    display: flow-root;
+    box-shadow: 2px 2px 5px #999;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    display: flow-root;
+    background: var(--second-bg-color);
+    padding: 15px 40px 15px 50px;
+    height: 100px;
+    color: var(--main-line-color);
+}
+
+.button1{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border-width: 50px;
+    border: var(--main-line-color);
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 3vh;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    color: var(--main-line-color);
+    text-align: center;
+    transition: all 0.2s;
+    align-self: right;
+    background-color: var(--main--bg-color);
+}
+
+.button1:hover {
+    color: white;
+    background-color: var(--second-line-color);
+}
+
+@media all and (max-width:30em) {
+    .button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+#navegacion-principal {
+    display: flow-root;
+}
+
+.flotar-izquierda {
+    float: left;
+    width: 40%;
+    height: 350px;
+    margin-left: 5%;
+    padding: 10px;
+    align-items: left;
+}
+
+.flotar-izquierda p{
+
+padding: 0.5vh;
+color: var(--second-bg-color);
+}
+
+.flotar-izquierda a{
+
+padding: 4vh;
+color: var(--second-bg-color);
+display: inline-block;
+font-size: x-large;
+}
+
+.flotar-izquierda a:hover{
+
+    padding: 4vh;
+    color: var(--second-line-color);
+    display: inline-block;
+    font-size: x-large;
+    }
+
+.flotar-derecha {
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+
+.botones-derecha{
+    float: right;
+    margin-top: 4vh;
+}
+.fondo-negro {
+    background: #000;
+}
+
+.barra {
+    float: left;
+    width: 100%;
+    opacity: 0;
+    padding: 3px;
+    background-color: var(--second-line-color);
+    height: 1px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+#navegacion-secundaria {
+    display: flow-root;
+    margin-left: 10%;
+    margin-top: 2vh;
+}
+
+.flotar-sec {
+    float: left;
+    border: 2px solid var(--second-line-color);
+    width: 25%;
+    height: 20vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+.image-coding {
+    background-image: url(../Content/imgs/asset-key.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.image-team {}
+
+.footer-social-fb {
+    background-image: url(../Content/imgs/facebook.png);
+    background-size: cover;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.footer-social-insta {
+    background-image: url(../Content/imgs/instagram.png);
+    background-size: cover;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.footer-social-twiter {
+    background-image: url(../Content/imgs/twitter.png);
+    background-size: cover;
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 20px;
+}
+
+footer {
+    height: 70px;
+}
+
+.flotar-izquierda h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--second-bg-color);
+    padding: 3%;
+}
+
+.flotar-izquierda p{
+    font-size: 20px;
+}
+
+a{
+   color: var(--main--bg-color); 
+}
