@@ -10,7 +10,7 @@
     padding: 2%;
     float: left;
     height: 3vh;
-    background-image: url(../img/Logo.png);
+    background-image: url(../Content/imgs/Logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 4vw;
@@ -170,7 +170,7 @@ font-size: x-large;
 }
 
 .image-coding {
-    background-image: url(../img/asset-key.jpg);
+    background-image: url(../Content/imgs/asset-key.jpg);
     background-size: cover;
     opacity: 0.7;
 }
@@ -178,7 +178,7 @@ font-size: x-large;
 .image-team {}
 
 .footer-social-fb {
-    background-image: url(../img/facebook.png);
+    background-image: url(../Content/imgs/facebook.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -188,7 +188,7 @@ font-size: x-large;
 }
 
 .footer-social-insta {
-    background-image: url(../img/instagram.png);
+    background-image: url(../Content/imgs/instagram.png);
     background-size: cover;
     float: right;
     height: 50px;
@@ -198,7 +198,7 @@ font-size: x-large;
 }
 
 .footer-social-twiter {
-    background-image: url(../img/twitter.png);
+    background-image: url(../Content/imgs/twitter.png);
     background-size: cover;
     float: right;
     height: 50px;
