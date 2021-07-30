@@ -14,10 +14,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 4vw;
-
 }
-
-
 
 nav {
     display: inline;
@@ -64,7 +61,7 @@ footer {
     color: var(--main-line-color);
 }
 
-.button1{
+.button1 {
     display: inline-block;
     padding: 0.35em 1.2em;
     border-width: 50px;
@@ -107,27 +104,24 @@ footer {
     align-items: left;
 }
 
-.flotar-izquierda p{
-
-padding: 0.5vh;
-color: var(--second-bg-color);
+.flotar-izquierda p {
+    padding: 0.5vh;
+    color: var(--second-bg-color);
 }
 
-.flotar-izquierda a{
-
-padding: 4vh;
-color: var(--second-bg-color);
-display: inline-block;
-font-size: x-large;
+.flotar-izquierda a {
+    padding: 4vh;
+    color: var(--second-bg-color);
+    display: inline-block;
+    font-size: x-large;
 }
 
-.flotar-izquierda a:hover{
-
+.flotar-izquierda a:hover {
     padding: 4vh;
     color: var(--second-line-color);
     display: inline-block;
     font-size: x-large;
-    }
+}
 
 .flotar-derecha {
     float: right;
@@ -135,10 +129,11 @@ font-size: x-large;
     height: 400px;
 }
 
-.botones-derecha{
+.botones-derecha {
     float: right;
     margin-top: 4vh;
 }
+
 .fondo-negro {
     background: #000;
 }
@@ -162,7 +157,6 @@ font-size: x-large;
 
 .flotar-sec {
     float: left;
-    border: 2px solid var(--second-line-color);
     width: 25%;
     height: 20vh;
     margin: 20px;
@@ -226,10 +220,10 @@ footer {
     padding: 3%;
 }
 
-.flotar-izquierda p{
+.flotar-izquierda p {
     font-size: 20px;
 }
 
-a{
-   color: var(--main--bg-color); 
+a {
+    color: var(--main--bg-color);
 }
