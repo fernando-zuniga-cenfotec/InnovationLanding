@@ -157,6 +157,7 @@ footer {
 
 .flotar-sec {
     float: left;
+    border: 2px solid var(--main--bg-color);
     width: 25%;
     height: 20vh;
     margin: 20px;
