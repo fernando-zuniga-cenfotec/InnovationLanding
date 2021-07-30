@@ -6,7 +6,7 @@
 }
 body{
     background-color: black;
-    background-image: url(../img/fondo.png);
+    background-image: url(./imgs/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -16,7 +16,7 @@ body{
     text-align: center;
     background: #3C3846;
     padding: 1.40vh;
-    background-image: url(../img/fondo.png);
+    background-image: url(./imgs/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
@@ -134,7 +134,7 @@ footer div{
 .mision-image{
     height: 50%;
     width: 70vh;
-    background-image: url(../img/mision.png);
+    background-image: url(./imgs/mision.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
